@@ -1,0 +1,370 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  background-color: #e8f5e2;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 3em;
+}
+
+nav,
+.saving,
+.profile,
+.quick-arrow {
+  display: none;
+}
+
+header {
+  padding: 2em;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  margin-bottom: -1em;
+}
+
+.logo span {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: black;
+}
+
+header {
+  border-bottom: 1px solid black;
+}
+
+section.hero .wrapper h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 2.3em;
+}
+
+section.hero .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.hero .wrapper p {
+  font-size: 1.6rem;
+}
+
+.five-pic {
+  margin-left: 1em;
+  margin-bottom: 2em;
+}
+
+.five-pic img {
+  width: 4.8em;
+  margin-left: -1em;
+}
+
+section.hero {
+  border-bottom: 1px solid black;
+}
+
+.first,
+.second,
+.third {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.stages {
+  padding-right: 2em;
+}
+
+.stages span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3em;
+  height: 3em;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+
+.stages p {
+  font-size: 2rem;
+}
+
+.process {
+  padding-left: 2em;
+}
+
+strong {
+  font-weight: normal;
+  color: #608a4d;
+}
+
+.install {
+  background-color: #9bc588;
+  color: black;
+  font-size: 2.2rem;
+  font-weight: bold;
+  width: 20.2em;
+  height: 2.6em;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  border-radius: 0.5em;
+  border: 1px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.install img {
+  width: 1.1em;
+  height: 0.7em;
+}
+
+section.sponsors {
+  background-color: black;
+  height: 32em;
+  width: auto;
+}
+
+section.sponsors .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5em;
+  padding-bottom: 15em;
+  gap: 5em;
+  height: 9em;
+}
+
+section.sponsors .wrapper img {
+  width: 8.8em;
+  height: 2.6em;
+}
+
+.ab,
+.cd {
+  display: flex;
+  gap: 10em;
+}
+
+section.gallery {
+  position: relative;
+  z-index: 2;
+  top: -5px;
+  background-color: white;
+}
+
+section.gallery p {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.women-shoe {
+  width: 35em;
+  height: 25.3em;
+  border: 1px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-radius: 0.5em;
+}
+
+.women-shoe .picture {
+  height: 20em;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.w1 {
+  background-position-y: -15em;
+  background-image: url(../assets/woman-shoe.jpg);
+}
+
+.w2 {
+  background-image: url(../assets/quick-arrow.jpg);
+}
+
+.w3 {
+  background-image: url(../assets/headphone.jpg);
+}
+
+.price {
+  height: 6em;
+  width: 9.4em;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -6em;
+  margin-left: auto;
+}
+
+.price p {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+a.view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  gap: 1em;
+  color: black;
+  text-decoration: underline;
+}
+
+a.view p {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+footer {
+  padding: 2em;
+}
+
+footer .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10em;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top .logo span {
+  color: black;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.social {
+  display: flex;
+  gap: 2em;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+
+.bottom nav {
+  display: block;
+}
+
+.bottom nav ul {
+  display: flex;
+  color: black;
+  gap: 3em;
+}
+
+.bottom nav ul li {
+  font-size: 1.8rem;
+}
+
+.bottom nav ul li a {
+  color: black;
+}
+
+.gray {
+  color: gray;
+}
+
+.active {
+  text-decoration: underline 1px solid black;
+}
+
+.twitter {
+  width: 4.3em;
+  margin-bottom: -1.5em;
+  margin-right: -1em;
+}
+
+button,
+.mobile-menu {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  header nav {
+    display: block;
+  }
+
+  header nav ul {
+    display: flex;
+    color: black;
+    gap: 3em;
+  }
+
+  header nav ul li {
+    font-size: 1.8rem;
+  }
+
+  header nav ul li a {
+    color: black;
+  }
+
+  .saving {
+    display: block;
+    background-color: #c6dbbd;
+    border-radius: 0.5em;
+    color: black;
+    border: 1px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+  }
+
+  .saving img {
+    width: 1.1em;
+    height: 0.7em;
+  }
+
+  .profile {
+    display: block;
+  }
+
+  .used {
+    display: flex;
+  }
+}

@@ -147,6 +147,7 @@ section.sponsors {
 
 section.sponsors .wrapper {
   display: flex;
+  height: 32em;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -164,13 +165,10 @@ section.sponsors .wrapper img {
 .ab,
 .cd {
   display: flex;
-  gap: 10em;
+  gap: 5em;
 }
 
 section.gallery {
-  position: relative;
-  z-index: 2;
-  top: -5px;
   background-color: white;
 }
 
@@ -185,6 +183,9 @@ section.gallery p {
   justify-content: center;
   align-items: center;
   gap: 2em;
+  z-index: 99;
+  position: relative;
+  top: -15em;
 }
 
 .women-shoe {
@@ -194,6 +195,7 @@ section.gallery p {
   border-right: 5px solid black;
   border-bottom: 5px solid black;
   border-radius: 0.5em;
+  z-index: 2;
 }
 
 .women-shoe .picture {
@@ -319,6 +321,22 @@ button,
 }
 
 @media only screen and (min-width: 1024px) {
+  section.hero .wrapper {
+    background-image: url(../assets/light.svg);
+    background-size: 5em;
+    background-repeat: no-repeat;
+    background-position-x: 89em;
+    background-position-y: 3em;
+  }
+
+  .right-col {
+    z-index: 2;
+    position: relative;
+    top: -15em;
+  }
+  .install {
+    width: 12em;
+  }
   nav {
     display: block;
   }
@@ -361,10 +379,187 @@ button,
   }
 
   .profile {
+    margin: 0;
     display: block;
+    display: flex;
+    background-color: white;
+    height: 6em;
+    width: 23em;
+    border-radius: 4.5em;
+    padding-left: 1em;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 3em;
+  }
+
+  .info p {
+    margin: 0;
+    font-size: 1.6em;
   }
 
   .used {
+    margin: 0;
     display: flex;
+    margin-left: -23em;
+    gap: 2em;
+  }
+
+  .stages {
+    display: flex;
+  }
+
+  .first {
+    display: flex;
+    flex-direction: column;
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+  }
+  .third {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first span {
+    align-self: flex-start;
+    margin-top: 2em;
+    margin-bottom: -2em;
+  }
+  .second span {
+    align-self: flex-start;
+    margin-top: 2em;
+    margin-bottom: -2em;
+  }
+  .third span {
+    align-self: flex-start;
+    margin-top: 2em;
+    margin-bottom: -2em;
+  }
+
+  section.sponsors .wrapper {
+    flex-direction: row;
+  }
+
+  .quick-arrow {
+    display: block;
+  }
+
+  .quick-arrow {
+    width: 35em;
+    height: 25.3em;
+    border: 1px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 0.5em;
+  }
+
+  .quick-arrow .picture {
+    height: 20em;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .w2 {
+    background-image: url(../assets/woman-highheel.jpg);
+  }
+
+  .w3 {
+    background-image: url(../assets/stuff.jpg);
+  }
+
+  .a1 {
+    background-image: url(../assets/quick-arrow.jpg);
+  }
+
+  .a2 {
+    background-image: url(../assets/headphone.jpg);
+  }
+
+  .a3 {
+    background-image: url(../assets/quick-bottle.jpg);
+  }
+
+  section.gallery .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .right-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+
+  footer .wrapper {
+    padding-left: 3em;
+    padding-right: 3em;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .top {
+    flex-direction: column;
+    gap: 5em;
+  }
+
+  .gray {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  section.hero .wrapper {
+    background-position-x: 50em;
+    background-position-y: 3em;
+  }
+
+  section.mid {
+    display: flex;
+  }
+
+  .used {
+    margin-left: 11em;
+  }
+
+  section.hero {
+    border-right: 1px solid black;
+  }
+
+  .left-col,
+  .right-col {
+    flex-direction: row;
+  }
+
+  section.gallery .wrapper {
+    flex-direction: column;
+  }
+
+  .w11 {
+    width: 50em;
+  }
+
+  .w12 {
+    width: 30em;
+  }
+  .w13 {
+    width: 30em;
+  }
+
+  .a11 {
+    width: 35em;
+  }
+
+  .a12 {
+    width: 45em;
+  }
+
+  .a13 {
+    width: 30em;
   }
 }
